@@ -14,7 +14,7 @@ export default defineConfig(({mode}) => {
     base: '/cosmic-tetris/',
     plugins: [react(), tailwindcss()],
     build: {
-      outDir: 'docs',
+      outDir: 'dist',
     },
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),

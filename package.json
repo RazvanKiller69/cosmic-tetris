@@ -2,9 +2,9 @@
   "name": "react-example",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/cosmic-tetris.git"
+    "url": "https://github.com/RazvanKiller69/cosmic-tetris.git"
   },
-  "homepage": "https://your-username.github.io/cosmic-tetris",
+  "homepage": "https://RazvanKiller69.github.io/cosmic-tetris",
   "private": true,
   "version": "0.0.0",
   "type": "module",

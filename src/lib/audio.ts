@@ -14,8 +14,8 @@ export class Synthesizer {
     this.masterGain.gain.value = 0.2; // Master volume
     this.masterGain.connect(this.ctx.destination);
     
-    // Try to setup MP3
-    this.bgmAudio = new Audio(new URL('../public/theme.mp3', import.meta.url).href);
+
+    this.bgmAudio = new Audio('./theme.mp3');
     this.bgmAudio.loop = true;
     (this.bgmAudio as any).preservesPitch = false;
     (this.bgmAudio as any).mozPreservesPitch = false;

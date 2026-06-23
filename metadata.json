@@ -1,0 +1,6 @@
+{
+  "name": "Cosmic Tetris",
+  "description": "A game of Tetris integrated with a cosmic particle system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
